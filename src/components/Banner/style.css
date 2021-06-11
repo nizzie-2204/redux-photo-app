@@ -1,0 +1,37 @@
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-image: url("../../assets/images/pink-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 30rem;
+}
+
+.banner__content {
+	display: flex;
+	align-items: center;
+}
+
+.banner__title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.banner__title h2 {
+	font-size: 4rem;
+	color: #fff;
+	margin-right: 2rem;
+}
+
+.banner__title img {
+	width: 5rem;
+	height: 5rem;
+	object-fit: cover;
+
+	padding-right: -2rem;
+}

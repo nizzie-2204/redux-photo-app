@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route, useRouteMatch } from "react-router-dom";
-import MainPage from "./pages/MainPage";
-import AddEditPage from "./pages/AddEditPage";
+import MainPage from "./pages/Main/MainPage";
+import AddEditPage from "./pages/AddEit/AddEditPage";
 import NotFound from "../../components/NotFound";
 
 const Photo = () => {

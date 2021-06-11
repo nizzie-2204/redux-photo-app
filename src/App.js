@@ -9,8 +9,8 @@ import {
 } from "react-router-dom";
 import NotFound from "./components/NotFound";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import Loader from "react-loader-spinner";
 import { Ring } from "react-css-spinners";
+import Header from "./components/Header";
 
 const Photo = React.lazy(() => import("./features/Photo"));
 
@@ -25,17 +25,7 @@ function App() {
 				}
 			>
 				<Router>
-					<ul>
-						<li>
-							<Link to="/photos">Go to photo page</Link>
-						</li>
-						<li>
-							<Link to="/photos/add">Go to Add new photo page</Link>
-						</li>
-						<li>
-							<Link to="/photos/123">Go to Edit photo page</Link>
-						</li>
-					</ul>
+					<Header />
 
 					<Switch>
 						<Redirect exact from="/" to="/photos" />

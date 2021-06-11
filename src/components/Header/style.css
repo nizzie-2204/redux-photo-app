@@ -1,0 +1,23 @@
+.header {
+	padding: 2rem 0;
+}
+
+.header__container {
+	max-width: 100rem;
+	margin: 0 auto;
+}
+
+.header__row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__row > * {
+	font-size: 3rem;
+	color: #0a0a0a;
+}
+
+.header__row a {
+	font-weight: 700;
+}
