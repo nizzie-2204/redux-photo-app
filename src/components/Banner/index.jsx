@@ -1,5 +1,4 @@
 import React from "react";
-import { GiFireworkRocket } from "react-icons/gi";
 import "./style.css";
 import firework from "../../assets/images/2071392.png";
 
@@ -9,8 +8,6 @@ const Banner = ({ title, backgroundUrl }) => {
 				backgroundImage: `url(${backgroundUrl})`,
 		  }
 		: {};
-
-	console.log(bannerStyle);
 
 	return (
 		<div className="banner" style={bannerStyle}>

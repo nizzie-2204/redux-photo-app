@@ -1,10 +1,11 @@
 import React from "react";
-import Banner from "../../../../components/Banner";
+import Banner from "../../../../components/Banner/index";
 import Images from "../../../../constants/images";
 import PhotoForm from "../../components/PhotoForm/PhotoForm";
+import { useDispatch } from "react-redux";
 
 const AddEditPage = () => {
-	console.log(Images);
+	const dispatch = useDispatch();
 	return (
 		<div className="add-edit-page">
 			<Banner

@@ -1,0 +1,13 @@
+.photo-list {
+	padding: 5rem 0;
+}
+
+.photo-list__container {
+	max-width: 100rem;
+	margin: 0 auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	/* justify-content: space-between; */
+}

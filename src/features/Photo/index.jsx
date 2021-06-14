@@ -6,7 +6,6 @@ import NotFound from "../../components/NotFound";
 
 const Photo = () => {
 	const match = useRouteMatch();
-	console.log(match);
 
 	return (
 		<Switch>
